@@ -2,7 +2,7 @@
 cd src
 mkdir build
 cd build
-cmake3 ..
+cmake ..
 make
 cd ../..
 sudo cp src/build/test/testVHACD /usr/bin/vhacd
